@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "title": "Бесы",
+    "author": "Ф. Достоевский",
+    "publicationYear": 1871,
+    "rating": 2,
+    "haveRead": false
+  },
+
+  {
+    "id": 2,
+    "title": "1984",
+    "author": "Д. Оруэлл",
+    "publicationYear": 1949,
+    "rating": 4,
+    "haveRead": true
+  },
+
+  {
+    "id": 3,
+    "title": "Так говорил Заратустра",
+    "author": "Ф. Ницше",
+    "publicationYear": 1883,
+    "rating": 5,
+    "haveRead": true
+  }
+]
