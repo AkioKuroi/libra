@@ -18,7 +18,7 @@ async function createWindow() {
     webPreferences: {
       nodeIntegration: process.env.ELECTRON_NODE_INTEGRATION,
       contextIsolation: !process.env.ELECTRON_NODE_INTEGRATION,
-      //devTools: false,
+      devTools: false,
     },
     // TODO: Add support for Linux
     // Not working on Linux
