@@ -18,7 +18,7 @@ async function createWindow() {
     webPreferences: {
       nodeIntegration: process.env.ELECTRON_NODE_INTEGRATION,
       contextIsolation: !process.env.ELECTRON_NODE_INTEGRATION,
-      devTools: false,
+      //devTools: false,
     },
     // TODO: Add support for Linux
     // Not working on Linux
@@ -27,7 +27,7 @@ async function createWindow() {
   });
 
   // Prevent title changing
-  win.on("page-title-updated", (e, title) => {
+  win.on("page-title-updated", (e) => {
     e.preventDefault();
   });
   if (process.env.WEBPACK_DEV_SERVER_URL) {
